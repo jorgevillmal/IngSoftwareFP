@@ -1,0 +1,71 @@
+
+<link rel="stylesheet" href="nav.component.css">
+
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark" id="mainNav">
+
+	<!-- Navbar Brand-->
+	<a class="navbar-brand ps-3" href="/">&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../../assets/img/logo.png" alt="" width="50px" height="50px">&nbsp;&nbsp;{{ texto_navegacion }}</a>
+	<!-- Navbar-->
+
+	<ul  class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4" >
+		<li id="nav-dropdown" class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true"><i class="fas fa-user fa-fw"></i></a>
+			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+				<li><a class="dropdown-item" href="#!">Settings</a></li>
+				<li><a class="dropdown-item" href="/login">Iniciar Sesión</a></li>
+				<li><hr class="dropdown-divider" /></li>
+				<li><a class="dropdown-item" href="/registro">Registrarse</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+<body>
+	<div class="d-flex">
+		<div id="sidebar-container" class="bg-primary">
+			<div class="titulo">
+				<h4 class="text-light font-weight-bold" >Olimpiadas universitarias</h4>
+
+			</div>
+			<div class="menu">
+				<a href="/login" class="d-block text-light p-3 mr-3 center"> iniciar sesion</a>
+				<a href="/registro" class="d-block text-light p-3 mr-3 center"> registrarse</a>
+				<hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr>
+				<p class="text-light p-3"> Síguenos en nuestras redes sociales</p>
+				<a href="#"><img src="../../../assets/img/logoGH.png" class="img-fluid rounded-circle p-1"  alt="github" width="50" height="50"></a>
+				<a href="#"><img src="../../../assets/img/logoFB.png" class="img-fluid rounded-circle p-1"  alt="Facebook" width="50" height="50"></a>
+				<a href="#"><img src="../../../assets/img/logoIG.jpg" class="img-fluid rounded-circle p-1"  alt="Instagram" width="50" height="50"></a>
+				<a href="#"><img src="../../../assets/img/logoTT.png" class="img-fluid rounded-circle p-1"  alt="Twitter" width="50" height="50"></a>
+				
+
+			</div>
+		</div>
+		<div id="content">
+			<section>
+				<div class="container">
+					<div class="row">
+						<!--<video class="video-fluid z-depth-1" autoplay loop controls muted>
+							<source src="../../../assets/vid/video1-olimpiadas.mp4" type="video/mp4" />
+						</video>-->						
+					</div>
+					<div class="row">
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+							  <div class="carousel-item active">
+								<h1>esta es la ventana 1 del carrusel</h1>
+							  </div>
+							  <div class="carousel-item">
+								<h1>esta es la ventana 2 del carrusel</h1>
+							  </div>
+							  <div class="carousel-item">
+								<h1>esta es la ventana 3 del carrusel</h1>
+							  </div>
+							</div>
+						  </div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+	</div>
+
+</body>
